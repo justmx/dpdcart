@@ -1,0 +1,10 @@
+{
+  "domains": [
+    {
+      "url": "https://domain1.dpdcart.com",
+      "domain": "domain1",
+      "username": "your_username",
+      "password": "your_password"
+    }
+  ]
+}

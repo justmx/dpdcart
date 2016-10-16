@@ -1,0 +1,91 @@
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <script src="http://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="tqtest.js"></script>
+
+
+
+
+
+  <style type="text/css">
+td, th { border: 1px solid #111; padding: 6px; }
+th { font-weight: 700; }
+ul { width:150px; }
+.underline { text-decoration: underline; }
+.item_0 { background-color: lightyellow; }
+.item_1 { background-color: lightblue; }
+.item_2 { background-color: lightgray; }
+.item_3 { background-color: lightgreen; }
+.highlight { border: 3px dotted red; background-color: lightblue; }
+.lowlight { border: 3px dotted blue; background-color: green; }
+  </style>
+
+  <title>Jquery testing</title>
+
+
+
+
+
+
+
+<!-- <script type="text/javascript">//<![CDATA[
+$(window).load(function(){
+$("#lnkSales").click(function(eventObj) {
+  var message = "#lnkSales is clicked.\n";
+  eventObj.preventDefault();
+  message += "Default event handler is prevented...";
+  alert(message);
+});
+
+
+$("#lnkMarketing").click(function(eventObj) {
+    var message ="#lnkMarketing is clicked.\n";
+    message += "Default event handler is NOT prevented...";
+    alert(message);
+});
+
+
+$("#imgSample").mouseenter(function(eventObject) {
+                            getEventObjectProperties(eventObject);
+                    });
+
+
+function getEventObjectProperties(eventObject) {
+                   // eventObject.target is the DOM element that triggered
+                   // the element
+                   // Get properties of the element, which has triggered
+// the event
+var message = "<u>" + eventObject.type + "</u> event is triggered on <u>" +
+eventObject.target.nodeName.toLowerCase() + "</u> with the id: <u>" +
+                                             $(eventObject.target).attr("id") + "</u><br>";
+                 message += "Key/Button was pressed: <u>" + eventObject.which + "</u><br>";
+message += "(x, y) coordinate of the mouse when event is triggered: (<u>" + eventObject.pageX + "</u>, <u>" + eventObject.pageY + "</u>)";
+                 $("#message").html(message);
+              }
+
+});//]]>
+
+</script>
+ -->
+
+</head>
+
+<body>
+  Departments:
+<ul id="listDepartments">
+        <li><a id="lnkSales" href="www.google.com">Sales</a></li>
+<li><a id="lnkMarketing" href="www.baidu.com">Marketing</a></li>
+<li>Technology</li>
+<li>Customer Support</li>
+</ul>
+
+<h3 id="imgSample"></h3>
+     Enter Image Title: <input id="txtImageTitle" type="text"><br><br>
+     <button id="btnSubmit">Submit</button>
+     <button id="btnCancel">Cancel</button><br><br>
+     <div id="message"></div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+[
+  "/subscriber/download?file_id=77502",
+  "/subscriber/download?file_id=77503"
+]
